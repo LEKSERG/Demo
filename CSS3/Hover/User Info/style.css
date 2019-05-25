@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #262626;
+}
+
+.container {
+    background: url(merida.jpg); /*  https://pixabay.com/photos/beautiful-fashion-female-girl-1867093/ */
+    background-size: 300px 453px;
+    height: 453px;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.label {
+    border-bottom: 75px solid #fff;
+    border-left: 0 solid transparent;
+    width: 0px;
+    position: relative;
+    top: 378px;
+    left: 20px;
+    transition: 1s;
+}
+
+.container:hover .label {
+    border-bottom: 75px solid rgb(126, 120, 120);
+    border-left: 30px solid transparent;
+    width: 250px;
+}
+
+.line1 {
+    background-color: #ac5707;
+    height: 0px;
+    width: 2px;
+    position: relative;
+    left: 275px;
+    bottom: 75px;
+    transition: 1s;
+}
+
+.container:hover .line1 {
+    height: 453px;
+}
+
+.line2 {
+    height: 2px;
+    width: 0px;
+    background-color: #ac5707;
+    position: relative;
+    bottom: 90px;
+    transition: 1s;
+}
+
+.container:hover .line2 {
+    width: 300px;
+}
+
+.name {
+    height: 38px;
+    background-color: #a38605;
+    position: relative;
+    left: 58px;
+    bottom: 138px;
+    font-size: 0px;
+    width: 0px;
+    text-align: center;
+    color: #262626;
+    font-family: "Raleway", sans-serif;
+    transition: 1s;
+}
+
+.container:hover .name {
+    font-size: 28px;
+    width: 210px;
+}
